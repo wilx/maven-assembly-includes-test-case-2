@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.apache.maven.assembly.issue.tests</groupId>
+    <groupId>org.apache.maven.assembly.issue.tests-2</groupId>
     <artifactId>maven-assembly-plugin-issue-tests</artifactId>
     <version>1</version>
     <packaging>pom</packaging>
@@ -12,14 +12,7 @@
         <dependency>
             <groupId>org.python</groupId>
             <artifactId>jython-standalone</artifactId>
-            <version>2.7.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.teiid</groupId>
-            <artifactId>teiid</artifactId>
-            <version>10.0.5</version>
-            <classifier>jdbc</classifier>
-            <type>jar</type>
+            <version>2.7.3b1</version>
         </dependency>
     </dependencies>
 
@@ -30,7 +23,7 @@
         <module>ver-3.1.0</module>
         <module>ver-3.2.0</module>
         <module>ver-3.3.0</module>
-        <module>ver-3.3.0-filters-3.2.0</module>
+        <module>ver-3.4.2</module>
     </modules>
 
 </project>

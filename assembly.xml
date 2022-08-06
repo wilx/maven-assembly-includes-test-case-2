@@ -7,7 +7,7 @@
     <dependencySets>
         <dependencySet>
             <includes>
-                <include>org.teiid:teiid:*:jdbc:*</include>
+                <include>org.python:jython-standalone</include>
                 <include>org.python:jython-standalone</include>
             </includes>
         </dependencySet>
